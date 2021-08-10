@@ -9,8 +9,8 @@ const Todo = ({ todo, status, onDelete, onComplete, id }) => {
     onComplete(id);
   };
   return (
-    <div className=" flex border-2  	   ">
-      <div className="w-96	 p-3  flex  align-items: center w-3/4   ">
+    <div className=" flex border-2 bg-white rounded-xl shadow-md 	   ">
+      <div className="w-96	 p-4  flex  align-items: center w-3/4   ">
         <li
           style={
             status
