@@ -9,7 +9,7 @@ const Todo = ({ todo, status, onDelete, onComplete, id }) => {
     onComplete(id);
   };
   return (
-    <div className=" flex border-2 bg-white rounded-xl shadow-md 	   ">
+    <div className=" flex max-w-6xl max-w-6xl mx-auto border-2 bg-white rounded-xl shadow-md  ">
       <div className="w-96	 p-4  flex  align-items: center w-3/4   ">
         <li
           style={
@@ -26,7 +26,7 @@ const Todo = ({ todo, status, onDelete, onComplete, id }) => {
       </div>
       <div className=" flex-none p-3  ">
         <button
-          className="flex-none text-align: right; text-4xl	 "
+          className="flex-none text-align: right; text-3xl	 "
           onClick={onDoneClickHandler}
         >
           <MdDone />

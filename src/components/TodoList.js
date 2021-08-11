@@ -21,7 +21,7 @@ const TodoList = ({ todo, setTodos, filteredTodos }) => {
   return (
     <div>
       {filteredTodos.length > 0 && (
-        <div className="p-8 max-w-6xl mx-auto      items-center   ">
+        <div>
           <ul>
             {filteredTodos.map((data) => {
               return (
